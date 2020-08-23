@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Order Menu
+            </title>
+            <link href="style.css" rel="stylesheet">
+        </head>
+            <body>
+              <div class="container">
+                  <nav class="navbar">
+                    <img src="logo1.png">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>order</a></li>
+                    </ul>  
+                </nav>     
+                 
+                 <div id="heading">
+                    <h1 align="center">Welcome To Davids Restaurant</h1>
+                    <h2 align="center">Place your order</h2>
+                </div>
+                <div id="opselect" align="center">
+                    <label>Choose Your Menulist :- </label>
+            <select id="menu" onchange="Menuordered()"> 
+              <option>Items</option>
+            </select>
+                </div>
+        
+                <div class="display">
+                    <h3>Your Ordered Dish :</h3>
+                    <div class="details">
+                     Short_name : <span id="s_name"></span><br>
+                     Name : <span id="name"></span><br>
+                     Description: <span id="Des"></span><br>
+                     Price_small: <span id="small"></span><br>
+                     Price_large: <span id="large"></span><br>
+                     Small_portion_name: <span id="small_p"></span><br>
+                     Large_portion_name: <span id="large_p"></span>
+                    </div>
+                </div>
+                  <div class="footer">
+                    <p>All Rights Reserved The Davids Restaurant</p>
+                  </div>
+                </div>
+                <script src="script.js"></script>
+           </body>
+           
+        
+    </html>
+   
